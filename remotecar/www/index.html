@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>
+
+    <script src="js/app.js"></script>
+
+  </head>
+  <body ng-app="trolleska">
+
+    <ion-pane>
+      <ion-header-bar class="bar-positive" align-title="center">
+        <h1 class="title">RemoteIT</h1>
+      </ion-header-bar> 
+      <ion-content class="background">
+
+        <cardbox title="HEATING"       content="Start heating car"  keyword="PHEV HEAT"           icon="ion-arrow-graph-up-left"   color-base="material" color-theme="red"    template="5" id="3"></cardbox>
+        <cardbox title="COOLING"       content="Start cooling car"  keyword="PHEV COOL"           icon="ion-arrow-graph-down-left" color-base="material" color-theme="blue"   template="5" id="4"></cardbox>
+        <cardbox title="LIGHTS"        content="Turn on car lights" keyword="PHEV LIGHTS"         icon="ion-ios-lightbulb"         color-base="material" color-theme="orange" template="5" id="5"></cardbox>
+        <cardbox title="MAP"           content="Show location"      keyword="PHEV LOCATE"         icon="ion-location"              color-base="material" color-theme="brown"  template="5" id="6"></cardbox>
+        <cardbox title="CAMERA"        content="Take picture"       keyword="PHEV CAMERA"         icon="ion-camera"                color-base="material" color-theme="grey"   template="5" id="7"></cardbox>
+        <cardbox title="TEST CAR INFO" content="Simple test"        keyword="PHEV TESTING"        icon="ion-model-s"               color-base="material" color-theme="green"  template="5" id="8"></cardbox> 
+
+       <!--
+        <cartoggle title="Test2" content="" keyword="PHEV TEST2" icon="ion-ios-lightbulb"  color-theme="lime" template="2"></cartoggle>
+        <cartoggle title="Test3" content="" keyword="PHEV TEST3" icon="ion-ios-
+
+        <caetoggle>
+          
+        </cartoggle>lightbulb"  color-theme="cyan" template="2"></cartoggle>
+        <cartoggle title="Test4" content="" keyword="PHEV TEST4" icon="ion-ios-lightbulb"  color-theme="teal" template="2"></cartoggle>
+        <cartoggle title="Test4" content="" keyword="PHEV TEST4" icon="ion-ios-lightbulb"  color-theme="green" template="2"></cartoggle>
+
+        <cartoggle title="Heater" content="" keyword="PHEV HEAT" icon="ion-social-freebsd-devil" color-theme="blue" template="1"></cartoggle>
+        <cartoggle title="Cooler" content="" keyword="PHEV COOL" icon="ion-social-tux"  color-theme="blue" template="2"></cartoggle>
+        <cartoggle title="Lights" content="" keyword="PHEV LIGHT" icon="ion-ios-lightbulb"  color-theme="" template="1"></cartoggle>
+-->
+        
+
+      </ion-content>
+    </ion-pane>
+
+    <!--<script type="text/javascript" src="lib/angular/angular.min.js"></script>--> 
+    <script type="text/javascript" src="js/cardboxlayout.js"></script>
+    <script type="text/javascript" src="js/slideables.js"></script>
+
+  </body>
+</html>

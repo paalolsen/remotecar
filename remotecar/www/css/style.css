@@ -1,0 +1,8 @@
+.grey_bg_color {
+    background-color: #E6E6E6;
+}
+
+.background.scroll-content {
+    background: url('../img/road7.jpg') no-repeat;
+    background-size: cover;
+}

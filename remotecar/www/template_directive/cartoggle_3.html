@@ -1,0 +1,45 @@
+
+<style>
+	.padding-top-10 				 			    {padding-top: 10px;}
+	.padding-top-50 				 			    {padding-top: 50px;}
+	.padding-right-10 				 			    {padding-right: 10px;}
+	.padding-right-50 				 			    {padding-right: 50px;}
+	.text-size-time-2								{font-size: 2em;}
+	.theme-header-{{colorTheme}} 	 				{background-color: {{color.color1}} ;} 	
+	.theme-content-{{colorTheme}} 	 				{background-color: {{color.color2}} ;} 	 	
+	.theme-header-text-{{colorTheme}} 	 			{color: {{color.color3}} ;} 			 
+	
+</style>
+
+<div class="card">
+		
+	<div class="item item-text-wrap theme-content-{{colorTheme}}">		
+		<div class="bar bar-header theme-header-{{colorTheme}}">
+		  <h1 class="title theme-header-text-{{colorTheme}}">{{title}}</h1>		 
+		</div>
+		<div class="row padding-top-50" ng-click="sendCarNotification()">
+			<div class="col col-10">
+				<i class="text-size-time-2 icon {{icon}}"></i>
+			</div>
+			<div class="col col-40">
+				<div>
+					<h2>{{content}}</h2>
+				</div>		  
+			 	<div>
+			 		<small>Keyword: {{keyword}}</small>
+			 	</div>
+			</div>				
+			<div class="col col-40" >
+				<label class="toggle toggle-positive" ng-click="sendCarNotification()">
+  					<input type="checkbox">
+					<div class="track">
+						<div class="handle"></div>
+					</div>
+				</label>	
+			</div>	
+			<div class="col col-10">
+				<i class="text-size-time-2 icon ion-android-options"></i>
+			</div>
+		</div>	
+	</div>	
+</div>	
